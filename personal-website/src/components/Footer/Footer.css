@@ -1,0 +1,42 @@
+.footer-container{
+    display:flex;
+    background-color: rgb(37, 36, 36);
+    margin-top: 200px;
+    padding: 25px;
+    
+}
+
+.footer-contact{
+    font-size:20px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:row;
+    margin-right:auto;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-socials{
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 15px;
+}
+
+.footer-github{
+    color:inherit;
+
+}
+
+.footer-linkedin{
+    color:inherit;
+}
+
+.footer-gmail{
+    color:inherit;
+}
