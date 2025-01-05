@@ -1,0 +1,46 @@
+.project-card-container{
+    display:flex;
+    flex-direction: row;
+    max-height:auto;
+    max-width:800px;
+    border-top:3px solid rgb(151, 148, 148);
+    align-items: center;
+    color:white;
+    transition:transform 0.5s ease-in-out;
+}
+
+.project-card-container:hover{
+    transform: scale(1.05);
+}
+
+.project-card-img{
+     width:150px;
+     margin:20px;
+     height:auto;
+     border-radius: 10px;
+}
+
+
+.project-card-text-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    max-width:550px;
+    margin-left: 20px;
+    color:inherit;
+    font-family: Merriweather, sans-serif;
+}
+
+.project-card-header{
+    margin-bottom: 20px;
+    font-size:40px;
+    text-align: center;
+    font-family: inherit;
+}
+
+.project-card-desc{
+    font-size:15px;
+    text-align: justify;
+    font-family: inherit;
+    line-height: 1.5;
+}
