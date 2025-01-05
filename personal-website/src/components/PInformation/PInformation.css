@@ -8,10 +8,9 @@
 }
 
 .pinformation-header {
-  margin-top: 200px;
+  margin-top: 300px;
   margin-left: 285px;
-  font-size: 50px;
-  text-decoration: underline;
+  font-size: 70px;
 }
 
 .pinformation-double-container {
@@ -23,10 +22,11 @@
 
 .pinformation-text-box {
   display: flex;
-  flex: 1;
-  max-width: 600px;
+  --flex: 1;
+  max-width: 580px;
   flex-direction: column;
   text-align: left;
+
 }
 
 .pinformation-img {
@@ -40,8 +40,9 @@
 }
 
 .pinformation-text {
-  max-width: 400px;
+  max-width: 490px;
   font-size: 18px;
+  text-align: justify;
 }
 
 .pinformation-name {

@@ -10,11 +10,16 @@ function PInformation(){
             <div className="pinformation-textbox">
                 <h1 className="pinformation-name">Wei Yan Lennard Tan</h1>
                 <p className="pinformation-text">My name is Wei Yan Lennard Tan. I am a 22 year-old Computer Science (Informatik) student 
-                                                at RWTH Aachen University from Malaysia with a passion for technology and creativity. I enjoy solving challenging problems
-                                                through coding and design. 
-                                                <br></br>
-                                                In my spare time, I also like to explore new technologies, listen to music, working on personal projects and 
+                                                at RWTH Aachen University from Malaysia with a interest for software engineering. This includes 
+                                                web development and machine learning. 
+                                                Furthermore, I enjoy solving challenging problems through coding and design. 
+                                                
+                </p>
+                <p className="pinformation-text"> 
+                                                In my spare time, I also like to explore new technologies, listen to music, work on personal projects and 
                                                 immerse myself in movies. My goal is to contribute to impactful projects and grow as a software developer/web developer.
+                                                <br></br>
+                                                Nice to meet you!
                 </p>
             </div>
         </div>
