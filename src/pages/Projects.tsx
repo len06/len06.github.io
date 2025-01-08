@@ -15,7 +15,7 @@ function Projects(){
                 })
                 }
             </div>
-            <img className="project-page-img" src="Project_image/magnolia-background.jpg" alt="magnolia art"></img>
+            <img className="project-page-img" src="/personal_website/Project_image/magnolia-background.jpg" alt="magnolia art"></img>
         </div>
     )
 }
