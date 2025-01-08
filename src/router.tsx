@@ -9,6 +9,8 @@ const router = createBrowserRouter([
         element:<App />,
         children: pages
     }
-])
+],{
+    basename: '/personal_website', 
+})
 
 export default router

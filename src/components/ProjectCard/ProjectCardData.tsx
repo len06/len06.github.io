@@ -1,6 +1,6 @@
 export const data = [
     {
-        img:"/Project_Image/Hackathon.jpg",
+        img:"Project_Image/Hackathon.jpg",
         header:"Frauenhofer Hackathon",
         text:"Achieved 2nd place at the Fraunhofer/Philips Hackathon #hackingforfuture 2023 by collaborating with a team of 4 students to develop a classification model using OpenCV. The project focused on detecting defects in razor blades, accurately categorizing them into four distinct classes."
     },

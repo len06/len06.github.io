@@ -6,7 +6,7 @@ function PInformation(){
     <div className="pinformatin-container">
         <h2 className="pinformation-header">About Me</h2>
         <div className="pinformation-double-container">
-            <img src="/Carousel_images/Picture_Of_Self.jpg" alt="self_portrait" className="pinformation-img"></img>
+            <img src="/personal_website/Carousel_images/Picture_Of_Self.jpg" alt="self_portrait" className="pinformation-img"></img>
             <div className="pinformation-textbox">
                 <h1 className="pinformation-name">Wei Yan Lennard Tan</h1>
                 <p className="pinformation-text">My name is Wei Yan Lennard Tan. I am a 22 year-old Computer Science (Informatik) student 

@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-left">
-        <img src="/Carousel_images/himmel_icon.png" alt="Himmel icon" className="header-icon"></img>
+        <img src="/personal_website/Header_Image/himmel_icon.png" alt="Himmel icon" className="header-icon"></img>
         <h1 className="name">Lennard Tan</h1>
       </div>
       <nav>
