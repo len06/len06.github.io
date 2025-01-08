@@ -1,7 +1,7 @@
 import React from 'react';
-import Contact from './Contact.tsx';
-import Home from './Home.tsx';
-import Projects from './Projects.tsx';
+import Contact from './Contact';
+import Home from './Home';
+import Projects from './Projects';
 
 const pages = [
     {

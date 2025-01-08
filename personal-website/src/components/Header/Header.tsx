@@ -1,13 +1,12 @@
 import  React from "react";
 import "./Header.css";
-import icon from "../../assets/himmel_icon.png";
 import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header className="header">
       <div className="header-left">
-        <img src={icon} alt="Himmel icon" className="header-icon"></img>
+        <img src="/Carousel_images/himmel_icon.png" alt="Himmel icon" className="header-icon"></img>
         <h1 className="name">Lennard Tan</h1>
       </div>
       <nav>

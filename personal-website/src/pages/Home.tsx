@@ -1,7 +1,7 @@
 import React from "react";
-import Carousel from "../components/Carousel/Carousel.tsx";
-import PInformation from "../components/PInformation/PInformation.tsx";
-import {images} from "../components/Carousel/Data.tsx";
+import Carousel from "../components/Carousel/Carousel";
+import PInformation from "../components/PInformation/PInformation";
+import {images} from "../components/Carousel/Data";
 
 function Home() {
   return( 

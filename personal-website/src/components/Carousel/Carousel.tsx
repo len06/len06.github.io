@@ -1,7 +1,16 @@
-import {React, useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import './Carousel.css';
 
-function Carousel(props){
+interface Image{
+    image:string,
+    title:string
+}
+
+interface CarouselProp {
+    images: Image[],
+}
+
+function Carousel(props:CarouselProp){
     const [currentIndex,setCurrentIndex] = useState(0);
 
     useEffect(() => {
@@ -26,7 +35,7 @@ function Carousel(props){
                     <div key={index} className={index === currentIndex ? "carousel-card carousel-card-active" : "carousel-card"}>
                         <img src={img.image} alt={img.title} className="card-image"></img>
                         <div className="card-overlay">
-                            <h2 className="card-text">Welcome to my website</h2>
+                            <h2 className="card-text">Welcome to my webpage</h2>
                         </div>
                     </div>
                 )
