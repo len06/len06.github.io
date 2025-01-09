@@ -9,7 +9,7 @@ function Contact(){
         <div className="contact-card-wrapper">
         <ContactInfo />
         </div>
-        <img src='/personal_website/Contact_image/mail.jpg' alt="street_light" className="contact-img"></img>
+        <img src={`${process.env.PUBLIC_URL}/Contact_image/mail.jpg`} alt="street_light" className="contact-img"></img>
     </div>
     </>
     )
