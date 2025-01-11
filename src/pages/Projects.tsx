@@ -15,7 +15,7 @@ function Projects(){
                 })
                 }
             </div>
-            <img className="project-page-img" src={`${process.env.PUBLIC_URL}/Project_image/magnolia-background.jpg`} alt="magnolia art"></img>
+            <img className="project-page-img" src={`${process.env.PUBLIC_URL}/Project_Image/magnolia-background.jpg`} alt="magnolia art"></img>
         </div>
     )
 }
